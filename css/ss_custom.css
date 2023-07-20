@@ -1,0 +1,43 @@
+/*table styling*/
+table {
+  overflow: auto; /*allow table to be scrollable*/
+  background-color: #FFFFFF;
+    //#F3EEE7; /*select background color*/
+  font-size: 0.8em; /*select font size*/
+  border: 2px solid #52643A; /*style the outer borders*/
+}
+
+td, th {
+  padding: 10px; /*add spaces around texts*/
+  border: 0.2px solid #52643A; /*style the outer borders*/
+}
+
+th {
+  background-color: #F5F5F5;
+  color: #000000; /*change font color for the header*/
+  text-align: left; /*set headers to left alignment*/
+}
+
+tr:hover {
+    background-color: #F0F0F0; /* Subtle hover effect */
+}
+
+/* Link Styles for Clean & Minimalistic Theme */
+
+table a {
+    color: #D5AEB2; /* Blue link color */
+    text-decoration: none; /* No underline by default */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+table a:hover {
+    color: #925859; /* Darken on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+/*blog styling*/
+.blog-basic-grid--container .blog-basic-grid--text .blog-title a {
+  display: block;
+  font-size: 25px;
+  line-height: 1.5;
+}
